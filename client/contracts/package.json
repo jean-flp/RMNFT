@@ -5,10 +5,6 @@
     "hardhat": "^2.22.19"
   },
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
     "compile": "npx hardhat ignition deploy ./ignition/modules/Lock.ts  --network Ganache"
   },
   "dependencies": {
